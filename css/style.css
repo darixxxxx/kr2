@@ -428,37 +428,3 @@ hr {
 }
 
 
-/*Оптимизация для телефонов*/
-
-@media screen and (max-width:420px) {
-
-.cont{
-	width:220px;
-	margin: auto;
-}
-  
-    header {
-        display: block;
-    }
-    .text {
-        font-size: 25px;
-    }
-    .conteiner {
-        display: block;
-    }
-    .content-cont {
-        display: block;
-    }
-	
-	.position_text_hello{
-		transform: none;
-		left: -150px;
-	}
-   
-	img {
-        display: none;
-    }
-    nav, section {
-        display: block;
-    }
-}
